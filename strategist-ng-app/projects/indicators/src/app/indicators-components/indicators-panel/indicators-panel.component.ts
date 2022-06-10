@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-indicators-panel',
+  selector: 'app-home',
   templateUrl: './indicators-panel.component.html',
   styleUrls: ['./indicators-panel.component.scss']
 })

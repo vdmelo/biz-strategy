@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { IndicatorsPanelComponent } from './indicators-panel/indicators-panel.component';
-import {IndicatorsComponentsRoutingModule} from "./indicators-components-routing.module";
+import {IndicatorsRoutingModule} from "./indicators-routing.module";
 
 @NgModule({
   declarations: [
     IndicatorsPanelComponent
   ],
   imports: [
-    IndicatorsComponentsRoutingModule
+    IndicatorsRoutingModule
   ],
   providers: []
 })
-export class IndicatorsComponentsModule { }
+export class IndicatorsModule { }

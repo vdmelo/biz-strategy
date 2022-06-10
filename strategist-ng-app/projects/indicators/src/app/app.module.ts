@@ -3,7 +3,7 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {IndicatorsComponentsModule} from "./indicators-components/indicators-components.module";
+import {IndicatorsModule} from "./indicators-components/indicators.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
@@ -13,7 +13,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IndicatorsComponentsModule,
+    IndicatorsModule,
     BrowserAnimationsModule
   ],
   providers: [],

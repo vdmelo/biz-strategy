@@ -4,7 +4,7 @@ import {RouterModule, Routes} from '@angular/router';
 const INDICATORS_ROUTES: Routes = [
   {
     path: '',
-    loadChildren: () => import('./indicators-components/indicators-components.module').then(m => m.IndicatorsComponentsModule)
+    loadChildren: () => import('./indicators-components/indicators.module').then(m => m.IndicatorsModule)
   }
 ];
 
